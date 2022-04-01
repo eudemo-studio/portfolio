@@ -1,0 +1,13 @@
+# Exectue the commands below in the Terminal (Mac OS) to install required packages into Conda environment
+
+# Check 'eudemo-portfolio' Conda environment is available, by inspecting list of all environments
+conda info -e
+
+# Activate 'eudemo-portfolio' Conda environment
+conda activate eudemo-portfolio
+
+# Install required packages for project - proceed [y] when asked
+conda install numpy pandas matplotlib
+
+# Deactivate Conda environment
+conda deactivate
